@@ -94,6 +94,7 @@
 
 .hill {
   position: relative;
+  margin-top: 10rem;
   width: 120rem;
 }
 
@@ -154,8 +155,10 @@
 }
 
 .skill-heading {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   color: #874356;
+  margin-bottom: 1rem;
 }
 
 .skill-row {
@@ -286,6 +289,7 @@ p {
   .contact-message {
     margin: 30px auto 60px;
     width: 70%;
+    font-size: 0.5rem;
   }
 
   .get-in-touch-text {
@@ -306,6 +310,11 @@ p {
   .hill2 {
     display: block;
     width: 24.5rem;
+  }
+
+  .intro {
+    font-size: 0.7rem;
+    margin: 0 1rem;
   }
 
   .kamusta {
@@ -365,21 +374,12 @@ p {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     color: #874356;
-    /* margin: 0; */
+    margin: 1rem 1rem;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Montserrat-Bold", sans-serif;
-  }
-
-  p {
+  .skills-description {
     font-size: 0.7rem;
-    margin: 0;
+    margin: 0 1rem;
   }
 
   hr {
