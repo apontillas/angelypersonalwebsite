@@ -75,8 +75,21 @@
 }
 
 .contact-message {
-  margin: 20px auto 60px;
+  margin: 30px auto 60px;
   width: 40%;
+}
+
+.get-in-touch-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  color: #f68989;
+  padding-bottom: 10px;
+}
+
+.get-in-touch-message {
+  color: #874356;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
 }
 
 .hill {
@@ -89,6 +102,13 @@
 
 .intro-image {
   margin: 0;
+}
+
+.kamusta {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #f68989;
+  padding-bottom: 10px;
 }
 
 .my-name {
@@ -121,12 +141,20 @@
 }
 
 .programmer {
+  color: #f68989;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
   text-align: right;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
 
 .profile {
   margin: auto;
+}
+
+.skill-heading {
+  font-size: 1.5rem;
+  color: #874356;
 }
 
 .skill-row {
@@ -137,6 +165,13 @@
 
 .skills-sec {
   padding: 0 auot;
+}
+
+.skills-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  color: #f68989;
+  padding-bottom: 10px;
 }
 
 .top-cloud {
@@ -169,26 +204,13 @@ body {
   text-align: center;
 }
 
-h1 {
-  color: #874356;
-  font-size: 5.625rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  margin: 50px auto 0 auto;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  color: #f68989;
-  padding-bottom: 10px;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  color: #874356;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold", sans-serif;
 }
 
 hr {
@@ -202,9 +224,36 @@ p {
   line-height: 2;
 }
 
+/* Heading */
+.big-heading {
+  color: #874356;
+  font-size: 5.625rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin: 50px auto 0 auto;
+  line-height: 1.5;
+}
+
+/* ////////////////////////////////// */
+/* Media Query */
+
 @media (max-width: 450px) {
   #angely-png {
     width: 8rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .big-heading {
+    color: #874356;
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin: 50px auto 0 auto;
+    line-height: 1.5;
+    z-index: 1;
   }
 
   .birds {
@@ -234,8 +283,19 @@ p {
   }
 
   .contact-message {
-    margin: 20px auto 60px;
-    width: 80%;
+    margin: 30px auto 60px;
+    width: 70%;
+  }
+
+  .get-in-touch-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: #f68989;
+    padding-bottom: 10px;
+  }
+
+  .get-in-touch-message {
+    font-size: 0.8rem;
   }
 
   .hill {
@@ -247,12 +307,24 @@ p {
     width: 30rem;
   }
 
+  .kamusta {
+    font-size: 1.5rem;
+  }
+
   .my-name {
     font-size: 1rem;
   }
 
   .myName-sec {
     width: 22rem;
+  }
+
+  .programmer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: #f68989;
+    margin-right: 3rem;
+    padding-bottom: 10px;
   }
 
   .skill-1 {
@@ -265,8 +337,20 @@ p {
     text-align: left;
   }
 
+  .skill-heading {
+    font-size: 1.5rem;
+    color: #874356;
+  }
+
   .skill-row {
     width: 32rem;
+  }
+
+  .skills-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: #f68989;
+    padding-bottom: 10px;
   }
 
   .top-cloud {
@@ -276,28 +360,20 @@ p {
     width: 100px;
   }
 
-  h1 {
-    color: #874356;
-    font-size: 3.5rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    margin: 50px auto 0 auto;
-    line-height: 1.5;
-    z-index: 1;
-  }
-
-  h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-    color: #f68989;
-    padding-bottom: 10px;
-  }
-
-  h3 {
+  .skill-heading {
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     color: #874356;
     /* margin: 0; */
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat-Bold", sans-serif;
   }
 
   p {
