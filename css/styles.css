@@ -41,7 +41,7 @@
 
 .birds {
   position: absolute;
-  top: 20rem;
+  top: 30rem;
   right: 2rem;
   width: 15rem;
 }
@@ -49,7 +49,7 @@
 .bottom-cloud {
   position: absolute;
   left: 2rem;
-  bottom: 38rem;
+  bottom: 32rem;
 }
 
 .bottom-intro {
@@ -95,7 +95,6 @@
 .hill {
   position: relative;
   width: 120rem;
-  margin-top: 10rem;
 }
 
 .hill2 {
@@ -306,7 +305,7 @@ p {
 
   .hill2 {
     display: block;
-    width: 30rem;
+    width: 24.5rem;
   }
 
   .kamusta {
@@ -391,7 +390,7 @@ p {
 @media (max-width: 1512px) {
   .hill {
     position: relative;
-    width: 94rem;
+    width: 95rem;
   }
 }
 
