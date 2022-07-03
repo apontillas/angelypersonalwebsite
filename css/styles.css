@@ -64,13 +64,13 @@
 
 .bugs-image {
   float: right;
-  margin-right: 2rem;
+  margin-left: 2rem;
   width: 8rem;
 }
 
 .computer-image {
   float: left;
-  margin-left: 2rem;
+  margin-right: 2rem;
   width: 13rem;
 }
 
