@@ -41,7 +41,7 @@
 
 .birds {
   position: absolute;
-  top: 30rem;
+  top: 20rem;
   right: 2rem;
   width: 15rem;
 }
@@ -49,7 +49,7 @@
 .bottom-cloud {
   position: absolute;
   left: 2rem;
-  bottom: 32rem;
+  bottom: 30rem;
 }
 
 .bottom-intro {
