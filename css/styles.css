@@ -4,8 +4,6 @@
 
 #navbar {
   padding: 0 1rem;
-  /* height: 5rem; */
-  /* font-size: 1rem; */
 }
 
 #navbarToggler {
@@ -83,9 +81,10 @@
 
 .hill {
   position: relative;
-  /* margin: 0; */
-  /* width: 50rem;
-  height: 20rem; */
+}
+
+.hill2 {
+  display: none;
 }
 
 .intro-image {
@@ -107,6 +106,7 @@
 }
 
 .navbar-nav {
+  background-color: white;
   position: absolute;
   right: 0.5rem;
   text-align: right;
@@ -202,16 +202,110 @@ p {
   line-height: 2;
 }
 
-@media (max-width: 450) {
+@media (max-width: 450px) {
+  #angely-png {
+    width: 8rem;
+  }
+
+  .birds {
+    position: absolute;
+    top: 18rem;
+    right: 1rem;
+    width: 5rem;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 1rem;
+    bottom: 32rem;
+    width: 100px;
+  }
+
   .bugs-image {
     float: right;
     margin-right: 2rem;
-    width: 6rem;
+    width: 5rem;
   }
 
   .computer-image {
     float: left;
     margin-left: 2rem;
-    width: 10rem;
+    width: 8rem;
+  }
+
+  .contact-message {
+    margin: 20px auto 60px;
+    width: 80%;
+  }
+
+  .hill {
+    display: none;
+  }
+
+  .hill2 {
+    display: block;
+    width: 30rem;
+  }
+
+  .my-name {
+    font-size: 1rem;
+  }
+
+  .myName-sec {
+    width: 22rem;
+  }
+
+  .skill-1 {
+    margin: 2rem -1rem;
+    text-align: right;
+  }
+
+  .skill-2 {
+    margin: 2rem 1rem;
+    text-align: left;
+  }
+
+  .skill-row {
+    width: 32rem;
+  }
+
+  .top-cloud {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    width: 100px;
+  }
+
+  h1 {
+    color: #874356;
+    font-size: 3.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin: 50px auto 0 auto;
+    line-height: 1.5;
+    z-index: 1;
+  }
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: #f68989;
+    padding-bottom: 10px;
+  }
+
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: #874356;
+    /* margin: 0; */
+  }
+
+  p {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+
+  hr {
+    margin: 2rem auto;
   }
 } ;
